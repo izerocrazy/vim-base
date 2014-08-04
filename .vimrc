@@ -33,10 +33,10 @@ Plugin 'majutsushi/tagbar' "{{{
 nmap <silent> <F9> :TagbarToggle<cr>
 let g:tagbar_ctags_bin = expand('$VIMRUNTIME').'\ctags.exe'
 if has("win32")
-    set csprg='cscope.exe'
+   set csprg='cscope.exe'
 else
-    let g:tagbar_ctags_bin = '/usr/bin/ctags'
-    set csprg='/usr/bin/cscope'
+   let g:tagbar_ctags_bin = '/usr/bin/ctags'
+   set csprg='/usr/bin/cscope'
 endif
 "}}}
 
@@ -95,15 +95,20 @@ vmap <SPACE> gcc
 "}}}
 
 " 一款小插件,使用+扩展选择的内容,比如在双引号的字符串直接选中整个字符串等
-Plugin 'terryma/vim-expand-region'
+" Plugin 'terryma/vim-expand-region'
 
 " 仿照snipmate的插件,支持自定义代码模版,从而快速插入整段代码,并按顺序修改模版
 " 整体功能较强大, 暂时有很多功能还用不到
-Plugin 'msanders/snipmate.vim'
+" Plugin 'msanders/snipmate.vim'
 " let g:UltiSnipsExpandTrigger="<tab>"
 " let g:UltiSnipsJumpForwardTrigger="<tab>"
 " let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 "}}}
+
+" go 相关的配置
+Plugin 'dgryski/vim-godef'
+Plugin 'Blackrush/vim-gocode'
+" Plugin 'majutsushi/tagbar'
 
 if has("win32")
     " 如果不考虑c++的智能补全,常用的补全使用这个插件足够
@@ -117,15 +122,16 @@ endif
 
 " 快速搜索插件,支持搜索打开的buffer,目录下的所有文件,以及menu等各种数据
 " 可以考虑自己使用qt写个类似插件,实现sublime中c-a-p那个框的效果
-Plugin 'Shougo/unite.vim'
+" Plugin 'Shougo/unite.vim'
 
 " qt quick的qml脚本的配置插件,支持语法高亮,indent配置
-Plugin 'peterhoeg/vim-qml'
+" Plugin 'peterhoeg/vim-qml'
 
 " 一款支持使用中文拼音首字母搜索的插件
-Plugin 'jianshanbushishan/vim-PYSearch'
-map ? :PYSearch<CR>
+""Plugin 'jianshanbushishan/vim-PYSearch'
+""map ? :PYSearch<CR>
 " map > :PYNext<CR>
+
 call vundle#end()            " required
 
 colorscheme molokai
