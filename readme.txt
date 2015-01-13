@@ -1,9 +1,11 @@
-Win GVIM µÄÅäÖÃËµÃ÷£º
-1¡¢Vundle.vim ÎÄ¼ş¼Ğ·ÅÖÃÔÚ vimfiles/bundle ÏÂ
-2¡¢mine.vim ÎÄ¼ş·ÅÖÃÔÚ vimfiles/bundle/vim-airline/autoload/airline/extensions/tabline/ ÏÂ
-3¡¢color ÅäÌ×Ê¹ÓÃ £¬Ä¿Â¼ÔÚ .vim ÏÂ£¨mac£©
+å¯¹åº”ç‰ˆæœ¬ä¸º vim 7.3
 
-Mac ÏÂÓöµ½µÄÎÊÌâ£º
-1¡¢vim base ÏÂµÄ base ÎÄ¼ş¸ñÊ½´íÎó£¬Î²Ä©»áÓĞ ^M
-2¡¢airline Éè¶¨×ÖÌåµÄÑ¡ÏîÎª 0£¬ÒòÎªÃ»ÓĞ°²×°×ÖÌå£º£©£¬Ã»Ê±¼äÕÛÌÚ
+Win GVIM çš„é…ç½®è¯´æ˜ï¼š
+1ã€Vundle.vim æ–‡ä»¶å¤¹æ”¾ç½®åœ¨ vimfiles/bundle ä¸‹
+2ã€mine.vim æ–‡ä»¶æ”¾ç½®åœ¨ vimfiles/bundle/vim-airline/autoload/airline/extensions/tabline/ ä¸‹
+3ã€color é…å¥—ä½¿ç”¨ ï¼Œç›®å½•åœ¨ .vim ä¸‹ï¼ˆmacï¼‰
+
+Mac ä¸‹é‡åˆ°çš„é—®é¢˜ï¼š
+1ã€vim base ä¸‹çš„ base æ–‡ä»¶æ ¼å¼é”™è¯¯ï¼Œå°¾æœ«ä¼šæœ‰ ^M
+2ã€airline è®¾å®šå­—ä½“çš„é€‰é¡¹ä¸º 0ï¼Œå› ä¸ºæ²¡æœ‰å®‰è£…å­—ä½“ï¼šï¼‰ï¼Œæ²¡æ—¶é—´æŠ˜è…¾
 
