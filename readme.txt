@@ -1,4 +1,4 @@
-对应版本为 vim 7.3
+对应版本为 vim 7.3 及其以上
 
 Win GVIM 的配置说明：
 1、Vundle.vim 文件夹放置在 vimfiles/bundle 下
