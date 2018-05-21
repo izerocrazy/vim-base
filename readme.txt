@@ -2,7 +2,15 @@
 
 1. Vundle.view 改名为 Vundle.vim
 2. Vundle.vim 文件夹放置在 vimfiles/bundle 下
-3. mine.vim 文件放置在 vimfiles/bundle/vim-airline/autoload/airline/extensions/tabline/ 下（因为 _vimrc 文件中配置了该文件）
+
+===========
+或者也可以使用最新的 vundle 和 .vimrc
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+ln -s ~/.vim/vimrc ~/.vimrc
+vim +PluginInstall +qall
+==============
+
+3. mine.vim 文件放置在 vimfiles/bundle/vim-airline/autoload/airline/extensions/formatters/tabline/ 下（因为 _vimrc 文件中配置了该文件）
 4. 字体并非必须安装
 
 补充：
